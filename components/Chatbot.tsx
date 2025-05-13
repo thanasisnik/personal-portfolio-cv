@@ -56,7 +56,7 @@ export default function Chatbot() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="absolute bottom-16 right-0 w-80 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700"
+          className="absolute bottom-16 right-0 w-90 min-h-90 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700"
         >
           <div className="p-4">
             <h3 className="font-medium text-lg mb-3 flex items-center gap-2">
@@ -64,7 +64,7 @@ export default function Chatbot() {
             </h3>
             
             {/* Chat History */}
-            <div className="min-h-40 max-h-60 overflow-y-auto mb-3">
+            <div className="min-h-40 max-h-80 overflow-y-auto mb-3">
               {aiResponse && (
                 <div className="p-3 bg-gray-100 dark:bg-gray-700 rounded mb-2">
                   <p>{aiResponse}</p>
@@ -73,7 +73,7 @@ export default function Chatbot() {
             </div>
 
             {/* Input Form */}
-            <form onSubmit={handleSubmit} className="flex gap-2">
+            <form onSubmit={handleSubmit} className="flex gap-2 mt-34">
               <input
                 type="text"
                 value={userInput}

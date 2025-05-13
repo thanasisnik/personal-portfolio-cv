@@ -22,8 +22,8 @@ export default function Projects() {
           
           <ProjectCard
             title="GitHub Repositories"
-            description="Διάφορα μικρά projects και experiments με React, TypeScript, και CSS animations. Συνεχής ενημέρωση!"
-            githubLink="https://github.com/yourusername"
+            description="Διάφορα μικρά projects και experiments σε frontend και backend. Συνεχής ενημέρωση!"
+            githubLink="https://github.com/thanasisnik"
           />
         </div>
         
