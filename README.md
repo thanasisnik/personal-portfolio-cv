@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal Portfolio
 
-## Getting Started
+Welcome to the source code of my personal website!  
+This site showcases who I am, what I do, and how we can collaborate.
 
-First, run the development server:
+## ✨ About Me
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I'm Thanasis, a junior full-stack developer with a passion for building clean, functional, and efficient web applications.  
+I enjoy solving real problems through code and constantly learning new tools and technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies I use include:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 💻 JavaScript, Python, SQL
+- 🌐 React, Next.js, Tailwind CSS
+- 🔧 Node.js, MongoDB, Flask
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Outside of coding, I love traveling and staying up to date with the latest in tech.
 
-## Learn More
+## 🧰 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+This site is built with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
+- **Deployment**: [Vercel](https://vercel.com/) or other platform
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📫 Contact
 
-## Deploy on Vercel
+Want to work together or just say hi?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📍 Visit: [https://personal-portfolio-cv-topaz.vercel.app] 
+📧 Email: thanasisnikolopoulos@email.com
+💼 LinkedIn: [www.linkedin.com/in/thanasis-nikolopoulos-126a44233]
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Thanks for stopping by! Feel free to star ⭐ this repo or open an issue if you have feedback.
