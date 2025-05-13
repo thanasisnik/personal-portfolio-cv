@@ -21,15 +21,15 @@ Outside of coding, I love traveling and staying up to date with the latest in te
 This site is built with:
 
 - **Frontend**: [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
-- **Deployment**: [Vercel](https://vercel.com/) or other platform
+- **Deployment**: [Vercel](https://vercel.com/) 
 
 ## 📫 Contact
 
 Want to work together or just say hi?
 
-📍 Visit: [https://personal-portfolio-cv-topaz.vercel.app] 
+📍 Visit: [thanasis.dev](https://personal-portfolio-cv-topaz.vercel.app)
 📧 Email: thanasisnikolopoulos@email.com
-💼 LinkedIn: [www.linkedin.com/in/thanasis-nikolopoulos-126a44233]
+💼 LinkedIn: [linkedin.com/thanasis](www.linkedin.com/in/thanasis-nikolopoulos-126a44233)
 
 ---
 
