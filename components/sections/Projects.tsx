@@ -22,7 +22,7 @@ export default function Projects() {
           
           <ProjectCard
             title="GitHub Repositories"
-            description="Διάφορα μικρά projects και experiments σε frontend και backend. Συνεχής ενημέρωση!"
+            description="Various small projects and experiments in both frontend and backend. Continuously updated!"
             githubLink="https://github.com/thanasisnik"
           />
         </div>

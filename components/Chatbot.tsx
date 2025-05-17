@@ -22,7 +22,10 @@ export default function Chatbot() {
                 text: userInput,
             });
 
+            setUserInput("");
+
             if (res.data?.response?.content) {
+              
                 setAiResponse(res.data.response.content);
             } else {
                 setError("No response from the AI.");
@@ -56,7 +59,7 @@ export default function Chatbot() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          className="absolute bottom-16 right-0 w-90 min-h-90 bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700"
+          className="fixed bottom-20 right-4 w-[90vw] max-w-md min-h-[200px]   bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-700"
         >
           <div className="p-4">
             <h3 className="font-medium text-lg mb-3 flex items-center gap-2">
@@ -73,7 +76,7 @@ export default function Chatbot() {
             </div>
 
             {/* Input Form */}
-            <form onSubmit={handleSubmit} className="flex gap-2 mt-34">
+            <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2 ">
               <input
                 type="text"
                 value={userInput}

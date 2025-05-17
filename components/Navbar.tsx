@@ -46,7 +46,7 @@ export default function Navbar(){
    return (
     <motion.nav
       style={{ opacity }}
-      className="fixed left-50 top-4/6 transform -translate-y-1/2 z-50 hidden md:block"
+      className="fixed left-50 top-4/6 transform -translate-y-1/2 z-50 hidden xl:block"
     >
       <ul className="space-y-6">
         {sections.map((section) => (
