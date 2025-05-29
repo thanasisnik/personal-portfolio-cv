@@ -132,7 +132,7 @@
   --bg-gradient: var(--dark-gradient);
 }
 /* CHATBOT */
-.chatbot {
+/* .chatbot {
   max-width: 500px;
   margin: 0 auto;
   border: 1px solid #ddd;
@@ -183,7 +183,7 @@
   border-radius: 4px;
   padding: 8px 16px;
   cursor: pointer;
-}
+} */
 /* CHATBOT */
 
 @layer base {
