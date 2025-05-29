@@ -4,7 +4,7 @@ import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
-import Chatbot from "@/components/Chatbot";
+// import Chatbot from "@/components/Chatbot";
 
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
         <About />
         <Projects />
         <Contact />
-        <Chatbot />
+        {/* <Chatbot /> */}
       </div>
     </div>
   );
